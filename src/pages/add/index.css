@@ -1,0 +1,53 @@
+.add{
+    padding:0 20px;
+}
+.add .group{
+    display: flex;
+    flex-direction: column;
+}
+.add .group label{
+    padding: 0.1rem 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+.add .group input{
+    border:.01rem solid #ccc;
+    height: .3rem;
+}
+.choose{
+    margin: 0.2rem auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: .16rem;
+}
+.choose button{
+    display: inline-block;
+    padding: .06rem .12rem;
+    margin-bottom: 0;
+    font-size: .14rem;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: .01rem solid transparent;
+    border-radius: .04rem;
+}
+.choose button:first-child{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.choose button:nth-child(2){
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}

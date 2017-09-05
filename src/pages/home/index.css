@@ -1,0 +1,21 @@
+h3{
+    font-size: .16rem;
+    color: #666666;
+    padding-left:2% ;
+    margin: .1rem 0;
+    font-weight: normal;
+}
+.hot{
+    display: flex;
+    flex-wrap:wrap;
+    font-size: .16rem;
+}
+.hot li{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width:33.333%;
+}
+.hot li img{
+    width:100%;
+}
